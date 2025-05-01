@@ -1,0 +1,23 @@
+1. create app setup
+>> npm create vue@latest <foldername>
+>> cd foldername
+>> npm i
+>> npm run dev (to run project)
+2.To run project on a specifc port --- add in vite.config.js
+server:{
+    port:3000 or any port for that matter
+  },
+3. Structure of vue component
+<script>
+SCRIPT
+</script>
+<template>
+COMPONENT
+</template>
+<style>
+STYLE
+</style>
+
+# use <style scoped> for styling only the specific component
+
+4. OPTIONS API Structure
